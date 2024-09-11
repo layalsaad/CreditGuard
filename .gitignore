@@ -1,0 +1,8 @@
+myenv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.ipynb_checkpoints/
+scratch/
+data generation/credit_card_raw.csv
