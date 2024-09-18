@@ -40,13 +40,6 @@
 <img src="./readme/title6.svg"/>
 
 
-### User Screens (Mobile)
-| Login screen  | Register screen | Landing screen | Loading screen |
-| ---| ---| ---| ---|
-| ![Landing](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) |
-| Home screen  | Menu Screen | Order Screen | Checkout Screen |
-| ![Landing](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) |
-
 ### Admin Screens (Web)
 | Login screen  | Register screen |  Landing screen |
 | ---| ---| ---|
@@ -87,9 +80,6 @@ Basic knowledge in python and rubbing sql queries in MySQL Workbench would be a 
 
 ### Installation
 
-<!--
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
--->
 
 1. Clone the repo
    git clone [github](https://github.com/layalsaad/CreditGuard.git)
@@ -97,6 +87,13 @@ _Below is an example of how you can instruct your audience on installing and set
    ```sh
    pip install -r requirements.txt
    ```
-4. Run the notebooks
+3. Open the sql scripts raw_staging_schema.sql, transformed_staging_schema.sql, and data_warehouse_schema.sql in MySQL Workbench to create the staging area and data warehouse schemas
+4. Open extract_transform.ipynb in any code editor and runn all cells.
+5. Run loaded_once.sql, monthly_load.sql, weekly_load.sql, and daily_load.sql in MySQL Workbench to load the data into the data warehouse. And noow u have the data warehouse ready for any analysis u would like to do.
+6. Running the time_series_analysis.ipynb and the network_analysis.ipynb would perform some time series and network analysis on the data to get into more deep and detailed inights.
+7. Run all cells of model_functions.ipynb in the code editor, then model_analysis.ipynb and check out the analysis and insights. This model can be used to predict any transaction if fraud or not given the required information.
+8. Install Power BI desktop (https://www.microsoft.com/en-us/download) and open CreditGuard.pbix for some data analytics.
+
+
 
 Now, you should be able to run CreditGuard locally and explore its features.
