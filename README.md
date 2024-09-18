@@ -43,9 +43,9 @@
 ### Admin Screens (Web)
 | Credit card fraud analysis | Bank fraud analysis |  Fraud analysis |
 | ---| ---| ---|
-| ![Credit card](./readme/demo/credit_card.png) | ![Bank](./readme/demo/bank.png) | ![Fraud](./readme/demo/fraud.png) |
+| ![Credit card](./readme/screens/credit_card.png) | ![Bank](./readme/screens/bank.png) | ![Fraud](./readme/screens/fraud.png) |
 | Non fraud analysis  | Credit card drill | Bank drill |
-| ![Non fraud](./readme/demo/non_fraud.png) | ![cc_drill](./readme/demo/cc_drill.png) | ![b_drill](./readme/demo/b_drill.png) |
+| ![Non fraud](./readme/screens/non_fraud.png) | ![cc_drill](./readme/screens/cc_drill.png) | ![b_drill](./readme/screens/b_drill.png) |
 
 <br><br>
 
