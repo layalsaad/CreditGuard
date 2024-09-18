@@ -41,11 +41,11 @@
 
 
 ### Admin Screens (Web)
-| Login screen  | Register screen |  Landing screen |
+| Credit card fraud analysis | Bank fraud analysis |  Fraud analysis |
 | ---| ---| ---|
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
-| Home screen  | Menu Screen | Order Screen |
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
+| ![Credit card](./readme/demo/credit_card.png) | ![Bank](./readme/demo/bank.png) | ![Fraud](./readme/demo/fraud.png) |
+| Non fraud analysis  | Credit card drill | Bank drill |
+| ![Non fraud](./readme/demo/non_fraud.png) | ![cc_drill](./readme/demo/cc_drill.png) | ![b_drill](./readme/demo/b_drill.png) |
 
 <br><br>
 
