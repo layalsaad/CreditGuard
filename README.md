@@ -56,9 +56,19 @@
 <!-- Prompt Engineering -->
 <img src="./readme/title7.svg"/>
 
-###  Mastering AI Interaction: Unveiling the Power of Prompt Engineering:
+###  Fraud Prediction Model
 
-- This project incorporates a machine learning model to predict fraudulent transactions based on historical data. By analyzing transaction patterns and identifying anomalies, the model helps detect potential fraud in real-time, supporting proactive risk management.
+ - Objective: This model aims to predict every record that corresponds to a transaction if it is considered as fraud or not based on the data it has been trained on, and helps in detecting potential fraud in real-time, supporting proactive risk management.
+
+ - Algorithm: Random Forest Classifier, tested to have the best performance out of Decision Tree, Logistic Regression, Support Vector Machine, K-nearesn Neighbors, and Gradient Boost Classifier.
+
+ - Evaluation: This algorithm was accurate by 75%, with a high precision of 80%, a good recall or 46%, an F1 score of 58% balancing the precision and recall values, and a ROC AUC of 70%.
+
+ - Features: the most important features that affect our model prediction are the type of transaction whether bank or credit card, the category, customer job, and the merchant.
+
+ - Data processing: the data was already cleaned and transformed in the ETL process, in addition to that the age and the amount were subjected to binning according the the values.
+
+ - Results: the model has reached an accuracy of 75% that can be enhanced more by adding more records and more trainings, but for for now this model gives accepted results.
 
 <br><br>
 
@@ -90,8 +100,8 @@ Basic knowledge in python and rubbing sql queries in MySQL Workbench would be a 
    ```sh
    pip install -r requirements.txt
    ```
-3. Open the sql scripts raw_staging_schema.sql, transformed_staging_schema.sql, and data_warehouse_schema.sql in MySQL Workbench to create the staging area and data warehouse schemas
-4. Open extract_transform.ipynb in any code editor and runn all cells.
+3. Open the sql scripts raw_staging_schema.sql, transformed_staging_schema.sql, and     data_warehouse_schema.sql in MySQL Workbench to create the staging area and data warehouse schemas
+4. Open extract_transform.ipynb in any code editor and run all cells.
 5. Run loaded_once.sql, monthly_load.sql, weekly_load.sql, and daily_load.sql in MySQL Workbench to load the data into the data warehouse. And noow u have the data warehouse ready for any analysis u would like to do.
 6. Running the time_series_analysis.ipynb and the network_analysis.ipynb would perform some time series and network analysis on the data to get into more deep and detailed inights.
 7. Run all cells of model_functions.ipynb in the code editor, then model_analysis.ipynb and check out the analysis and insights. This model can be used to predict any transaction if fraud or not given the required information.
