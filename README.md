@@ -30,7 +30,7 @@
 
 ###  Architecting Data Excellence: Innovative Database Design Strategies:
 
-<img src="./readme/Fraudulent activities.png">
+<img src="./readme/screens/Fraudulent activities.png">
 
 
 <br><br>
@@ -40,13 +40,16 @@
 <img src="./readme/title6.svg"/>
 
 
-### Admin Screens (Web)
-| Credit card fraud analysis | Bank fraud analysis |  Fraud analysis |
-| ---| ---| ---|
-| ![Credit card](./readme/screens/credit_card.png) | ![Bank](./readme/screens/bank.png) | ![Fraud](./readme/screens/fraud.png) |
-| Non fraud analysis  | Credit card drill | Bank drill |
-| ![Non fraud](./readme/screens/non_fraud.png) | ![cc_drill](./readme/screens/cc_drill.png) | ![b_drill](./readme/screens/b_drill.png) |
-
+### Dashboard Screens 
+| Credit card fraud analysis | Bank fraud analysis |
+| ---| ---|
+| ![Credit card](./readme/screens/credit_card.png) | ![Bank](./readme/screens/bank.png) |
+|  Fraud analysis | Non fraud analysis  |
+| ---| ---|
+| ![Fraud](./readme/screens/fraud.png) | ![Non fraud](./readme/screens/non_fraud.png) |
+| Credit card drill | Bank drill |
+| ---| ---|
+| ![cc_drill](./readme/screens/cc_drill.png) | ![b_drill](./readme/screens/b_drill.png) |
 <br><br>
 
 
