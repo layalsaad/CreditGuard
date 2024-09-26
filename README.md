@@ -41,15 +41,13 @@
 
 
 ### Dashboard Screens 
-| Credit card fraud analysis | Bank fraud analysis |
+| Credit card drill through | Category distribution |
 | ---| ---|
-| ![Credit card](./readme/screens/credit_card.png) | ![Bank](./readme/screens/bank.png) |
-|  Fraud analysis | Non fraud analysis  |
-| ---| ---|
-| ![Fraud](./readme/screens/fraud.png) | ![Non fraud](./readme/screens/non_fraud.png) |
-| Credit card drill | Bank drill |
-| ---| ---|
-| ![cc_drill](./readme/screens/cc_drill.png) | ![b_drill](./readme/screens/b_drill.png) |
+| ![Credit card drill through](./readme/screens/cc_drill.gif) | ![Category distribution](./readme/screens/category.gif) |
+|  Different dimensions | Merchant distribution  |
+| ![Dimensions](./readme/screens/dimension.gif) | ![Merchant distribution](./readme/screens/merchant.gif) |
+| Credit card tooltip | Bank tree |
+| ![Credit card tooltip](./readme/screens/tooltip.gif) | ![Tree](./readme/screens/tree.gif) |
 <br><br>
 
 
