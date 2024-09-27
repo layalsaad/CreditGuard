@@ -87,7 +87,10 @@
 
 ### Prerequisites
 
-Basic knowledge in python and rubbing sql queries in MySQL Workbench would be a good start, in addition to some knowledge in Power BI navigation and visuals. 
+Basic knowledge in python and rubbing some sql queries in MySQL Workbench would be a good start, follow those steps to setup some installations:
+1- Install Miniconda [here](https://docs.anaconda.com/miniconda/).
+2- MySQL Workbench can be installed [here](https://dev.mysql.com/downloads/) and the connector [here](https://dev.mysql.com/downloads/connector/net/).
+3- Install Power BI [here](https://www.microsoft.com/en-us/power-platform/products/power-bi/desktop) for viewing the dashboard. 
 
 ### Installation
 
@@ -103,7 +106,7 @@ Basic knowledge in python and rubbing sql queries in MySQL Workbench would be a 
 5. Run loaded_once.sql, monthly_load.sql, weekly_load.sql, and daily_load.sql in MySQL Workbench to load the data into the data warehouse. And noow u have the data warehouse ready for any analysis u would like to do.
 6. Running the time_series_analysis.ipynb and the network_analysis.ipynb would perform some time series and network analysis on the data to get into more deep and detailed inights.
 7. Run all cells of model_functions.ipynb in the code editor, then model_analysis.ipynb and check out the analysis and insights. This model can be used to predict any transaction if fraud or not given the required information.
-8. Install Power BI desktop (https://www.microsoft.com/en-us/download) and open CreditGuard.pbix for some data analytics.
+8. Open CreditGuard.pbix for some data analytics shown in the dashboard.
 
 
 
