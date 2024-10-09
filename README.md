@@ -89,11 +89,10 @@
 
 Basic knowledge in python and rubbing some sql queries in MySQL Workbench would be a good start, follow those steps to setup some installations:
 1. Install Miniconda [here](https://docs.anaconda.com/miniconda/).
-2. MySQL Workbench can be installed [here](https://dev.mysql.com/downloads/) and the connector [here](https://dev.mysql.com/downloads/connector/net/).
+2. MySQL Workbench can be installed [here](https://dev.mysql.com/downloads/) and the connector [here] (https://dev.mysql.com/downloads/connector/net/).
 3. Install Power BI [here](https://www.microsoft.com/en-us/power-platform/products/power-bi/desktop) for viewing the dashboard. 
 
 ### Installation
-
 
 1. Clone the repo
    git clone [github](https://github.com/layalsaad/CreditGuard.git)
